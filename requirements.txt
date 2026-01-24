@@ -1,8 +1,10 @@
-numpy
 torch
 torchaudio
+transformers
+numpy
+pandas
 scikit-learn
 tqdm
 nibabel
 pyyaml
-transformers
+matplotlib

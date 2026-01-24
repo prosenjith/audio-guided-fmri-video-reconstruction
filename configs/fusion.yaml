@@ -1,0 +1,14 @@
+paths:
+  csv: /content/drive/MyDrive/Research/data/generated/audios/video_to_audio.csv
+  fmri_root: /content/drive/MyDrive/Research/data/fMRI/fMRI_embeddings
+  audio_root: /content/drive/MyDrive/Research/data/generated/audios/w2v2_embeds
+  output_root: /content/drive/MyDrive/Research/data/generated/fusion_embeddings
+
+sequence_length: 16
+batch_size: 4
+
+model:
+  d_f: 245        # fMRI PCA dimension
+  d_a: 768        # Wav2Vec2 dimension
+  d_model: 256
+  n_heads: 4
