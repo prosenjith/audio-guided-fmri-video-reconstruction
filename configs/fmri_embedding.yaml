@@ -1,0 +1,10 @@
+n_components: 512
+batch_size: 200
+
+use_mni: true
+normalize_per_run: true
+merge_runs: true
+
+paths:
+  fmri_root: /content/drive/MyDrive/Research/data/fMRI/fMRI_extracted
+  output_root: /content/drive/MyDrive/Research/data/fMRI/fMRI_embeddings
