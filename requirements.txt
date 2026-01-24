@@ -1,6 +1,8 @@
 numpy
 torch
+torchaudio
 scikit-learn
 tqdm
 nibabel
 pyyaml
+transformers

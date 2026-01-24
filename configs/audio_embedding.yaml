@@ -1,0 +1,19 @@
+paths:
+  input_audio_dir: /content/drive/MyDrive/Research/data/generated/audios/full_audios
+  output_embed_dir: /content/drive/MyDrive/Research/data/generated/audios/w2v2_embeds
+
+model:
+  name: facebook/wav2vec2-base
+  sample_rate: 16000
+  frame_hz: 50.0
+
+windowing:
+  win_sec: 2.0
+  hop_sec: 2.0
+
+chunking:
+  chunk_sec: 30.0
+  overlap_sec: 0.20
+
+normalization:
+  zscore: true
