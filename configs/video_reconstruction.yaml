@@ -1,0 +1,19 @@
+paths:
+  fmri_root: /content/drive/MyDrive/Research/data/fMRI/fMRI_embeddings
+  fusion_root: /content/drive/MyDrive/Research/data/generated/fusion_embeddings
+  stimuli_dir: /content/drive/MyDrive/Research/data/stimuli/videos
+  model_dir: /content/drive/MyDrive/Research/models
+  output_dir: /content/drive/MyDrive/Research/data/generated/generated_videos
+  svd_cache: /content/drive/MyDrive/Research/models/cache/svd_model
+
+subjects: [subject1, subject2, subject3]
+test_segments: [test1, test2, test3, test4, test5]
+
+dims:
+  fmri: 245
+  fusion: 256
+  motion_latent: 128
+
+video:
+  num_frames: 16
+  fps: 8
