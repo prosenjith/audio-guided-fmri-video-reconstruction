@@ -1,0 +1,24 @@
+paths:
+  fmri_root: /content/drive/MyDrive/Research/data/fMRI/fMRI_embeddings
+  fusion_root: /content/drive/MyDrive/Research/data/generated/fusion_embeddings
+  motion_root: /content/drive/MyDrive/Research/data/generated/motion_targets
+  model_root: /content/drive/MyDrive/Research/data/generated/models
+  output_csv: /content/drive/MyDrive/Research/evaluation/quantitative/motion/eval_motion_results.csv
+
+# Test stimulus segments
+test_segments:
+  - test1
+  - test2
+  - test3
+  - test4
+  - test5
+
+# Temporal parameters (from your notebook)
+fps: 30
+tr_sec: 2.0
+
+# Embedding dimensions
+dims:
+  fmri: 245
+  fusion: 256
+

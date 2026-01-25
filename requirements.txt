@@ -4,7 +4,10 @@ transformers
 numpy
 pandas
 scikit-learn
+scipy
 tqdm
 nibabel
 pyyaml
 matplotlib
+seaborn
+opencv-python-headless
