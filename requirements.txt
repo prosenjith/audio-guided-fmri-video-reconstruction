@@ -1,34 +1,57 @@
-# Core
+# ============================================================
+# Core Deep Learning
+# ============================================================
 torch
 torchvision
 torchaudio
 
-# NLP / Audio
+# ============================================================
+# NLP / Audio / Multimodal
+# ============================================================
 transformers
 
-# Diffusion / Video generation
+# ============================================================
+# Diffusion / Video Generation
+# ============================================================
 diffusers
 accelerate
 safetensors
 imageio
 pillow
 
-# Scientific stack
+# ============================================================
+# Scientific Computing
+# ============================================================
 numpy
 pandas
 scikit-learn
 scipy
 
-# fMRI / Neuroimaging
+# ============================================================
+# Neuroimaging / fMRI
+# ============================================================
 nibabel
 
-# Utils
+# ============================================================
+# Computer Vision
+# ============================================================
+opencv-python-headless
+scikit-image   # SSIM / PSNR
+
+# ============================================================
+# Perceptual Metrics
+# ============================================================
+lpips          # VGG-based perceptual similarity
+
+# ============================================================
+# Utilities
+# ============================================================
 tqdm
 pyyaml
+einops         # transformer-friendly tensor ops (safe to include)
 
+# ============================================================
 # Visualization
+# ============================================================
 matplotlib
 seaborn
-
-# Computer vision
-opencv-python-headless

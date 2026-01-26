@@ -1,0 +1,12 @@
+paths:
+  gt_dir: /content/drive/MyDrive/Research/data/stimuli/videos
+  gen_dir: /content/drive/MyDrive/Research/data/generated/generated_videos
+  output_csv: /content/drive/MyDrive/Research/evaluation/quantitative/evaluation_metrics.csv
+  summary_dir: /content/drive/MyDrive/Research/evaluation
+
+subjects: [subject1, subject2, subject3]
+test_segments: [test1, test2, test3, test4, test5]
+
+video:
+  resize: [64, 64]
+  max_frames: null
