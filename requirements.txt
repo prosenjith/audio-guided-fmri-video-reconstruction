@@ -13,7 +13,7 @@ transformers
 # ============================================================
 # Diffusion / Video Generation
 # ============================================================
-diffusers
+diffusers>=0.24,<0.28
 accelerate
 safetensors
 imageio
@@ -36,19 +36,19 @@ nibabel
 # Computer Vision
 # ============================================================
 opencv-python-headless
-scikit-image   # SSIM / PSNR
+scikit-image
 
 # ============================================================
 # Perceptual Metrics
 # ============================================================
-lpips          # VGG-based perceptual similarity
+lpips>=0.1.4
 
 # ============================================================
 # Utilities
 # ============================================================
 tqdm
 pyyaml
-einops         # transformer-friendly tensor ops (safe to include)
+einops
 
 # ============================================================
 # Visualization

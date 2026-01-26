@@ -1,0 +1,22 @@
+paths:
+  gt_dir: /content/drive/MyDrive/Research/data/stimuli/videos
+  generated_dir: /content/drive/MyDrive/Research/data/generated/generated_videos
+  timeline_dir: /content/drive/MyDrive/Research/evaluation/qualitative/qualitative_timeline
+  summary_csv: /content/drive/MyDrive/Research/evaluation/qualitative/qualitative_summary_notes.csv
+
+subjects:
+  - subject1
+  - subject2
+  - subject3
+
+test_segments:
+  - test1
+  - test2
+  - test3
+  - test4
+  - test5
+
+video:
+  fps_gt: 30
+  segment_duration_sec: 2
+  num_samples: 5
